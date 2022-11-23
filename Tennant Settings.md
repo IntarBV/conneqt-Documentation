@@ -1,0 +1,11 @@
+# Tennant Settings
+
+In the Settings tab of the tenant settings, all the default settings can be set. ‘Default menu for new users’ and ‘Default dashboard for new users’ sets the menu and dashboard defaults for newly invited users. The users themselves can then change this in their ‘user settings’. ‘Process to start in the conneqt app’ allows for a flow to be started once the conneqt app is opened. The menu sets the menu accessible in the app, and the home-dashboard sets the main dashboard used in the app. In the default telegram process the flow that starts as soon as the `/start` command is given can be set.
+
+Under communication a telegram link can be generated to invite new users to the bot of the tenant. The default world-map view allows the default view of the world map to be set by zooming and moving the map to the desired place and then hitting the save icon at the top right. The Tokens tab holds a list of all the tokens that have been generated for [flows](Flows.md) and [modules](Modules.md)
+
+Under Users, roles & rights, the roots of a tenant can create user types by clicking the + in the top right of the Roles tab and set accounts to these types. They can set which assets and flows a user type can influence and which rights they have. Under asset types, checking the ‘Can edit asset type’ allows the user type to add and remove properties. The ‘property rights’ determine which properties they can see or not and which they can edit or not. The ‘prefiltered’ determines which assets of the assettype they can access. Under Processes, checking the ‘Can edit process’ allows the user type to change the flow. Checking the ‘Can run the process’ allows the user type to trigger the flow.
+
+### Make sure there is alway at least one root to change the user types, otherwise parts of the tenant may forever become inaccessible.
+
+In the User management tab the root can add new users by clicking the add user button ![Add user](Documentation/Tennant_Settings/0.png). Turning on the ‘Require two-factor authentication to login’ forces users to use 2FA. Below that, a list of users is shown. The root and anyone with the rights can change the rolls of the users by pressing the ‘change roll’ button and they can remove the user from the tenant by pressing the ‘Revoke access' button.
