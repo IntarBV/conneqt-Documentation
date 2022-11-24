@@ -8,6 +8,8 @@ If there is a part of the documentation is unclear, contains and error or is out
 
 ### Some usefull pages:
 
+[Variables and Arrays](Variables.md): A short explanation on some programing terms used both within conneqt and this documentation.
+
 [Asset types](Assettypes.md): Asset types are the foundation of any tenant.
 
 [Dashboards](Dashboards.md): Dashboards are the place where all the information of a tenant is gathered.
