@@ -145,3 +145,21 @@ The process widget allows for a flow to be started from a dashboard with the cli
 The link to dashboard widget is simply a button that will lead the user to another dashboard.
 
 ![Link to dashboard](Documentation/Widgets/17.png)
+
+## HTML Template
+
+This widget displays rendered HTML and allows access through handlebars to the current asset in context. Style-tags with classes as HTML elements are allowed. The handlebars notation exposes the context FLAT asset through `asset` and the properties (and settings) of the asset-type through `metaData`. 
+
+> Example 1
+```html
+<div> {{asset.Name}} </div>
+```
+
+Also some formatters are
+
+> Example 2
+```html
+<div> {{asset.Name}} </div>
+```
+
+
